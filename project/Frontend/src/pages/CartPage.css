@@ -1,0 +1,43 @@
+.cart-container {
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.cart-details h4 {
+  margin: 0;
+}
+
+.cart-details p {
+  margin: 4px 0;
+}
+
+.remove-btn {
+  margin-top: 5px;
+  background-color: crimson;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-btn {
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
